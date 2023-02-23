@@ -6,7 +6,7 @@ createScrollTrigger(".dashed-line-embed.is-retreats-message",
     null,
     null);
 
-// Iframe
+// Embed
 createScrollTrigger(".dashed-line-embed.is-retreats-embed",
     "#maskPath-retreatsEmbed",
     true,
