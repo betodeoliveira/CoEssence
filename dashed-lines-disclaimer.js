@@ -1,4 +1,3 @@
-// Posts
 createScrollTrigger(".dashed-line-embed.is-disclaimer-content",
     "#maskPath-disclaimerContent",
     true,

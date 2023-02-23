@@ -1,4 +1,3 @@
-// Posts
 createScrollTrigger(".dashed-line-embed.is-post-content",
     "#maskPath-postContent",
     true,

@@ -1,4 +1,3 @@
-// Posts
 createScrollTrigger(".dashed-line-embed.is-events-list",
     "#maskPath-eventsList",
     true,
