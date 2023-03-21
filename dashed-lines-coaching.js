@@ -47,14 +47,6 @@ matchMedia.add("(min-width: 992px)", () => {
         ".coaching-details_option-item.is-04",
         0.5,
         1);
-
-    // Details CTA
-    createScrollTrigger(".dashed-line-embed.is-coaching-details-cta",
-        "#maskPath-coachinngDetailsCta",
-        true,
-        ".section-content.is-coaching-details-cta",
-        null,
-        null);
 });
 
 // Match Media - On tablet and below
@@ -66,6 +58,14 @@ matchMedia.add("(max-width: 991px)", () => {
         ".coaching-details_option-item",
         null,
         null);
+
+    // Details CTA
+    createScrollTrigger(".dashed-line-embed.is-coaching-details-cta",
+    "#maskPath-coachinngDetailsCta",
+    true,
+    ".section-content.is-coaching-details-cta",
+    null,
+    null);
 });
 
 // Embed
