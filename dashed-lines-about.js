@@ -68,6 +68,14 @@ matchMedia.add("(max-width: 991px)", () => {
         null);
 });
 
+// Praxis Gallery
+createScrollTrigger(".dashed-line-embed.is-essence-praxis",
+    "#maskPath-essencePraxis",
+    true,
+    ".section-content.is-essence-praxis",
+    null,
+    null);
+
 // Values
 createScrollTrigger(".dashed-line-embed.is-essence-values",
     "#maskPath-essenceValues",
