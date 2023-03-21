@@ -37,16 +37,16 @@ matchMedia.add("(min-width: 992px)", () => {
         "#maskPath-coachingDetailsDash3",
         true,
         ".coaching-details_option-item.is-03",
-        1,
-        1.5);
+        null,
+        null);
 
     // Details 04
     createScrollTrigger(".dashed-line-embed.is-coaching-details-dash4",
         "#maskPath-coachingDetailsDash4",
         false,
         ".coaching-details_option-item.is-04",
-        1.5,
-        2);
+        0.5,
+        1);
 });
 
 // Embed
