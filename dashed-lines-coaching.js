@@ -43,7 +43,7 @@ matchMedia.add("(min-width: 992px)", () => {
     // Details 04
     createScrollTrigger(".dashed-line-embed.is-coaching-details-dash4",
         "#maskPath-coachingDetailsDash4",
-        true,
+        false,
         ".coaching-details_option-item.is-04",
         null,
         2);
