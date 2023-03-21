@@ -49,6 +49,14 @@ matchMedia.add("(min-width: 992px)", () => {
         1);
 });
 
+// Details CTA
+createScrollTrigger(".dashed-line-embed.is-coaching-details-cta",
+    "#maskPath-coachinngDetailsCta",
+    true,
+    ".section-content.is-coaching-details-cta",
+    null,
+    null);
+
 // Embed
 createScrollTrigger(".dashed-line-embed.is-coaching-embed",
     "#maskPath-coachingEmbed",
