@@ -30,7 +30,7 @@ matchMedia.add("(min-width: 992px)", () => {
         true,
         ".coaching-details_option-item.is-02",
         null,
-        null);
+        1);
 
     // Details 03
     createScrollTrigger(".dashed-line-embed.is-coaching-details-dash3",
@@ -38,7 +38,7 @@ matchMedia.add("(min-width: 992px)", () => {
         true,
         ".coaching-details_option-item.is-03",
         null,
-        null);
+        1.5);
 
     // Details 04
     createScrollTrigger(".dashed-line-embed.is-coaching-details-dash4",
@@ -46,7 +46,7 @@ matchMedia.add("(min-width: 992px)", () => {
         true,
         ".coaching-details_option-item.is-04",
         null,
-        null);
+        2);
 });
 
 // Embed
