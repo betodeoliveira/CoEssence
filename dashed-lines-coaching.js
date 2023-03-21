@@ -58,6 +58,14 @@ matchMedia.add("(max-width: 991px)", () => {
         ".coaching-details_option-item",
         null,
         null);
+
+    // Details CTA
+    createScrollTrigger(".dashed-line-embed.is-coaching-details-dash1-mobile",
+        "#maskPath-coachingDetailsDash1Mobile",
+        true,
+        ".section-content.is-coaching-details-cta",
+        null,
+        null);
 });
 
 // Details CTA
