@@ -49,6 +49,17 @@ matchMedia.add("(min-width: 992px)", () => {
         1);
 });
 
+// Match Media - On tablet and below
+matchMedia.add("(max-width: 991px)", () => {
+    // Details 01
+    createScrollTrigger(".dashed-line-embed.is-coaching-details-dash1-mobile",
+        "#maskPath-coachingDetailsDash1Mobile",
+        true,
+        ".coaching-details_option-item",
+        null,
+        null);
+});
+
 // Details CTA
 createScrollTrigger(".dashed-line-embed.is-coaching-details-cta",
     "#maskPath-coachinngDetailsCta",
