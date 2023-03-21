@@ -29,7 +29,7 @@ matchMedia.add("(min-width: 992px)", () => {
         "#maskPath-coachingDetailsDash2",
         true,
         ".coaching-details_option-item.is-02",
-        null,
+        0.5,
         1);
 
     // Details 03
@@ -37,7 +37,7 @@ matchMedia.add("(min-width: 992px)", () => {
         "#maskPath-coachingDetailsDash3",
         true,
         ".coaching-details_option-item.is-03",
-        null,
+        1,
         1.5);
 
     // Details 04
@@ -45,7 +45,7 @@ matchMedia.add("(min-width: 992px)", () => {
         "#maskPath-coachingDetailsDash4",
         false,
         ".coaching-details_option-item.is-04",
-        null,
+        1.5,
         2);
 });
 
