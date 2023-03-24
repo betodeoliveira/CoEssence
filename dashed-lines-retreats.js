@@ -23,9 +23,9 @@ createScrollTrigger(".dashed-line-embed.is-retreats-gallery",
     null);
 
 // Embed
-createScrollTrigger(".dashed-line-embed.is-retreats-embed",
-    "#maskPath-retreatsEmbed",
-    true,
-    ".section-content.is-retreats-embed",
-    null,
-    null);
+// createScrollTrigger(".dashed-line-embed.is-retreats-embed",
+//     "#maskPath-retreatsEmbed",
+//     true,
+//     ".section-content.is-retreats-embed",
+//     null,
+//     null);
